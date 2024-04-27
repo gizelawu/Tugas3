@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tugas PWEB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <main
+      class="w-1/2 h-screen text-center flex flex-col justify-center items-center mx-auto"
+    >
+      <h2 class="text-[32px] mb-[58px]" id="title">Yakin kan Profesi Anda !</h2>
+      <div
+        id="container"
+        class="bg-[#DBDBDB] w-[610px] rounded-[30px] h-[329px]"
+      >
+        <img
+          id="image"
+          class="mx-auto -my-12"
+          src="assets/detective.png"
+          width="219"
+          height="219"
+          alt="detective image"
+        />
+
+        <div class="mt-7">
+          <p
+            class="relative bg-[#FEEEE2] w-[475px] h-[56px] rounded-[20px] mx-auto grid place-items-center"
+            id="result"
+          >
+            Apakah anda seorang Detective ?
+          </p>
+
+          <div
+            class="flex items-center justify-center my-[29px] gap-x-[25px]"
+            id="choice"
+          >
+            <button
+              class="hover:opacity-80 w-[157px] h-[41px] rounded-[12px] bg-[#6FD240] my-auto grid place-items-center"
+              id="yesBtn"
+            >
+              Iya!!
+            </button>
+            <button
+              id="noBtn"
+              class="hover:opacity-80 w-[157px] h-[41px] text-white rounded-[12px] bg-[#E12E2E] my-auto grid place-items-center"
+            >
+              Tidak!!
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
